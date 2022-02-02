@@ -1,0 +1,11 @@
+.card {
+  margin: 15px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card p a {
+  text-decoration: underline;
+}
