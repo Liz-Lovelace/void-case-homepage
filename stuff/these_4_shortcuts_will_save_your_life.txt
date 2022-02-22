@@ -1,0 +1,58 @@
+THIS SHORTCUT WILL CHANGE HOW YOU USE YOUR KEYBOARD
+
+For this article, you'll need:
+  Know how to touch-type
+  Any IDE or code text editor (Examples shown for Visual Studio Code) 
+
+Here's how writing a book looks like:
+
+[A video with a simplified view of how a book is written continuously]
+
+And here's how we write code:
+
+[A video with a simplified view of how code is written all over the place]
+
+See the difference? When we write a book, we do it in a continuous stream, but when we write code, we jump around and change little bits of it in different places.
+
+The problem is, changing between typing-mode and cursor-moving-mode takes /time/. How much time?
+
+[A video showing how long moving your hands between the home row and arrow keys takes]
+
+This sucks. And there's a simple solution. Ready to hear it?
+
+Remap the following keys:
+Alt + j = [left arrow]
+Alt + k = [down arrow]
+Alt + l = [up arrow]
+Alt + ; = [right arrow]
+
+[picture showing the layout on a keyboard]
+
+you could also do it like this, but I'll tell you later in the article why I prefer doing it this way.
+
+[picture showing the layout on a keyboard but instead of jkl; it's jikl]
+
+Here it is in action:
+
+[Video showing the superior navigation method]
+
+You should also remap Shift + Alt + jkl; to select text with this method.
+
+BUT CAN WE GO DEEPER?
+
+We can make our navigation and selection even more efficient by binding the following keys:
+
+Alt + u = [home]
+Alt + i = word left
+Alt + o = word right
+Alt + p = [end]
+
+End goes to the end of the line and toggleHome goes to the beginning of the text in your line, and if you press it again - to the beginning of the line
+
+[video showing how home and end work]
+
+(Also bind shift+alt+ all of these to selectHome, selectWordRight, etc.)
+
+Here's the final result:
+
+[Video showing the ultimate typing technique]
