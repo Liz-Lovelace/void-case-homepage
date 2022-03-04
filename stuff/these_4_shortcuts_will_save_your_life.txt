@@ -4,21 +4,28 @@ For this article, you'll need:
   Know how to touch-type
   Any IDE or code text editor (Examples shown for Visual Studio Code) 
 
-Here's how writing a book looks like:
+Take a look at this:
 
-[A video with a simplified view of how a book is written continuously]
++----------------+--------------+
+| writing a book | writing code |
+|   [video]      |   [video]    |
++----------------+--------------+
 
-And here's how we write code:
+See the difference? When we write a book, we do it in a continuous stream, 
+but when we write code, we jump around and change little bits of it in different places.
 
-[A video with a simplified view of how code is written all over the place]
-
-See the difference? When we write a book, we do it in a continuous stream, but when we write code, we jump around and change little bits of it in different places.
+>>>
+>>>            writing a book  writing code
+>>>    vscode  maybe?          ok
+>>>
+>>>    word    ok              what?
+>>>
 
 The problem is, changing between typing-mode and cursor-moving-mode takes /time/. How much time?
 
 [A video showing how long moving your hands between the home row and arrow keys takes]
 
-This sucks. And there's a simple solution. Ready to hear it?
+This sucks. And there's a simple solution. Instead of moving your hands to and from the arrow keys, just remap the cursor movement to alt + your home row:
 
 Remap the following keys:
 Alt + j = [left arrow]
@@ -28,17 +35,13 @@ Alt + ; = [right arrow]
 
 [picture showing the layout on a keyboard]
 
-you could also do it like this, but I'll tell you later in the article why I prefer doing it this way.
-
-[picture showing the layout on a keyboard but instead of jkl; it's jikl]
-
 Here it is in action:
 
 [Video showing the superior navigation method]
 
 You should also remap Shift + Alt + jkl; to select text with this method.
 
-BUT CAN WE GO DEEPER?
+MORE SPEED
 
 We can make our navigation and selection even more efficient by binding the following keys:
 
@@ -55,4 +58,7 @@ End goes to the end of the line and toggleHome goes to the beginning of the text
 
 Here's the final result:
 
-[Video showing the ultimate typing technique]
+[Video showing the ultimate typing technique]k
+
+And now using anything that doesn't allow you to remap the arrow keys feels like this:
+[funny video?]
