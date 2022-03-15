@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,337;0,400;0,700;1,400;1,700&display=swap');
+
+.postBody {
+  max-width: 40rem;
+  margin: auto;
+  padding: 0 1.5em;
+  color: #3A4145;
+}
+
+.postBody p {
+  line-height: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+}
