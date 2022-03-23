@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,337;0,400;0,700;1,400;1,700&display=swap');
-
 .postBody {
   max-width: 40rem;
   margin: auto;
@@ -9,5 +7,6 @@
 
 .postBody p {
   line-height: 1.6em;
-  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  overflow-y: visible;
 }

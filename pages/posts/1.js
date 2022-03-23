@@ -3,25 +3,28 @@ import PostBody from '../../components/post/PostBody';
 import MainTitle from '../../components/post/MainTitle';
 import P from '../../components/post/P';
 import DiskList from '../../components/post/DiskList';
+import SizedImage from '../../components/post/SizedImage';
+import Guide from '../../components/post/Guide';
+import SideNote from '../../components/post/SideNote';
 import Image from 'next/image';
+import styles from '../../components/post/Post.module.css';
 
 export default function Post(){
-  return <>
+  return <div className={styles.post}>
     <Head>  
-      <title> JKL;</title>
+      <title> SPEED</title>
     </Head>
     <MainTitle> I love this hotkey and so will you </MainTitle>
+    <Guide />
     <PostBody>
       <P>
-        If you don't know how to touch-type, you can safely skip this post and <i>go learn touch-typing instead.</i>
+        If you don't know how to touch-type, you can<SideNote /> safely skip this post and <i>go learn touch-typing instead.</i>
       </P>
+      <SizedImage text="Programming isn't linear" src="/1/WritingCodeWritingBook.webm"/>
       <P>
-        With that out of the way, take a look at this:
+        See the difference?<SideNote /> When we write a book, we do it in a continuous stream, but when we write code,<SideNote /><SideNote /> we jump around and change little bits of it in different places.
       </P>
-      [video]
-      <P>
-        See the difference? When we write a book, we do it in a continuous stream, but when we write code, we jump around and change little bits of it in different places.
-      </P>
+      <SizedImage text="What a wonderful cat" width = "2560" height="1600" src="/1/cat-grass-lie-down-striped-wallpaper.jpg" alt="Cat"  />
       <P>
         The problem is, changing between typing-mode and cursor-moving-mode takes <i>time</i>. How much time?
       </P>
@@ -59,7 +62,7 @@ export default function Post(){
       <P>
       </P>
     </PostBody>
-  </>
+  </div>
 }
 
 /*

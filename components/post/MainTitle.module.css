@@ -6,9 +6,9 @@
 
 .mainTitle {
   font-family: iosevka-splendid, monospace;
-  font-size: 4rem;
+  font-size: 2rem;
   max-width: 20em;
-  margin: auto;
+  margin: 20px auto;
   padding: 0 20px;
   text-align: center;
 }

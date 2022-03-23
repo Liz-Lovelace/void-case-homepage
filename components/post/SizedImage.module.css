@@ -1,0 +1,25 @@
+.container {
+  background-color: #eee;
+  padding: 15px 10px 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px  #bbb;
+}
+
+.container p {
+  color: #777;
+  text-align: center;
+  padding-top: 0.4em;
+  padding-bottom: 0.7em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* workaround because videos have a weird bottom margin*/
+.container :not(video) ~ p {
+  margin-top: 7px;
+}
+
+.container .media {
+  border-radius: 5px;
+}
