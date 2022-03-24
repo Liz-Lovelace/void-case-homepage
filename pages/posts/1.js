@@ -22,7 +22,7 @@ export default function Post(){
       </P>
       <SizedImage text="Programming isn't linear" src="/1/WritingCodeWritingBook.webm"/>
       <P>
-        See the difference?<SideNote /> When we write a book, we do it in a continuous stream, but when we write code,<SideNote /><SideNote /> we jump around and change little bits of it in different places.
+        See the difference?<SideNote>When we write a book, we do it in a continuous stream, but when we write code</SideNote> When we write a book, we do it in a continuous stream, but when we write code,<SideNote /><SideNote /> we jump around and change little bits of it in different places.
       </P>
       <SizedImage text="What a wonderful cat" width = "2560" height="1600" src="/1/cat-grass-lie-down-striped-wallpaper.jpg" alt="Cat"  />
       <P>
