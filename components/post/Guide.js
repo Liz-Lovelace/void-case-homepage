@@ -6,7 +6,12 @@ export default function(){
   return <section className={styles.guide}>
     <h6> Reading pro tips </h6>
     <p> Click on images to open them in full size</p>
-    <p> Blue circles<SideNote /> have extra content in them</p>
+    <p> Blue circles
+      <SideNote> 
+        Yeah, just like that
+      </SideNote> 
+      have extra content in them
+    </p>
 
   </section>
 }

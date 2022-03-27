@@ -18,11 +18,18 @@ export default function Post(){
     <Guide />
     <PostBody>
       <P>
-        If you don't know how to touch-type, you can<SideNote /> safely skip this post and <i>go learn touch-typing instead.</i>
+        If you don't know how to touch-type, you can
+        <SideNote>Canananananananananananananananananananananananananananananananananananananananananananananananananananananan</SideNote>
+        safely skip this post and <em>go learn touch-typing instead.</em>
       </P>
       <SizedImage text="Programming isn't linear" src="/1/WritingCodeWritingBook.webm"/>
       <P>
-        See the difference?<SideNote>When we write a book, we do it in a continuous stream, but when we write code</SideNote> When we write a book, we do it in a continuous stream, but when we write code,<SideNote /><SideNote /> we jump around and change little bits of it in different places.
+        See the difference?
+        <SideNote>When we write a book, we do it in a continuous stream, but when we write code</SideNote>
+        When we write a book, we do it in a continuous stream, but when we write code,
+        <SideNote>who the movie Jurassic Park lied to you a lot about—they were around the size of a turkey, feathered, and not especially intelligent. </SideNote>
+        <SideNote>But how does it deal with <em>emphasis</em> and <b>boldness</b>?</SideNote>
+        we jump around and change little bits of it in different places.
       </P>
       <SizedImage text="What a wonderful cat" width = "2560" height="1600" src="/1/cat-grass-lie-down-striped-wallpaper.jpg" alt="Cat"  />
       <P>
@@ -39,7 +46,18 @@ export default function Post(){
         Alt + ; = [right arrow]
       </P>
       <P>
-        MORE SPEED
+        MORE SPEED 
+        <SideNote>
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+        
+        As Cicero would put it, “Um, not so fast.”
+        
+        The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.
+        
+        Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
+        
+        In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections 1.10.32–33 of Cicero's work, with the most notable passage excerpted below:
+        </SideNote>
       </P>
       <P>
         We can make our navigation and selection even more efficient by binding the following keys:
