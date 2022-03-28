@@ -16,7 +16,7 @@ function detectMediaType(src){
   return 'image';
 }
 
-export default function({src, width, height, text, alt}){
+export default function({children, src, width, height, alt}){
   if (src[0] == '/')
     src = `${mediaPath}${src}`;
   const mediaType = detectMediaType(src);
@@ -43,6 +43,6 @@ export default function({src, width, height, text, alt}){
 
   return <div className={styles.container}>
     {media}
-    <p> {text ? text : alt} </p>
+    <p> {children ? children : alt} </p>
   </div>
 }

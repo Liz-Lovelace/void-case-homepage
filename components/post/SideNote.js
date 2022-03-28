@@ -23,6 +23,14 @@ const tooltipTheme = createTheme({
           bottom: '7px',
           boxShadow: '0 0 1em  #999',
           maxWidth: '100%',
+          paddingTop: '0',
+          paddingBottom: '0',
+          p: {
+            fontStyle: 'normal !important',
+            textAlign: 'left !important',
+            marginTop: '0.3em',
+            marginBottom: '0.3em',
+          }
         },
         popper: {
           // 3em comes from PostBody's paddng times two.
@@ -39,7 +47,7 @@ const tooltipTheme = createTheme({
   },
 });
 
-export default function({children}) {
+export default function({children, n=0}) {
   const [open, setOpen] = React.useState(false);
 
   const handleTooltipClose = () => {
@@ -69,20 +77,10 @@ export default function({children}) {
             className={styles.sideNote} 
             onClick={handleTooltipOpen}
           >
-            1
+            {n}
           </button>
         </Tooltip>
     </ClickAwayListener>
+    &nbsp;
   </ThemeProvider>
-
-
-  return <>
-    <Tooltip title="looooong text">
-      <a className={styles.sideNote}>  
-        <span>
-          1
-        </span>
-      </a>
-    </Tooltip>
-  </>
 }
